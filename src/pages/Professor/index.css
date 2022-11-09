@@ -1,0 +1,76 @@
+.container-professor{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#FFF;
+}
+
+.container-login img{
+    margin-bottom: -200px;
+}
+
+.container-login{
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    margin-top: 1.5em;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 0.5em;
+    
+}
+
+form input {
+    margin-bottom: 15px;
+    height: 35px;
+    border: 4;
+    border-radius: 7px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-color: hsla(89, 43%, 51%, 0.1);
+}
+
+form button {
+    height: 35px;
+    border: 0;
+    border-radius: 7px;
+    background-color: green;
+    color: #FFF;
+    font-size: 1.3em;
+
+}
+
+
+@media (min-width: 390px) {
+    .container-login {
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    form {
+        margin-top: 1.5em;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    
+  
+  }

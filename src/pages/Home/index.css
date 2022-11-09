@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .container-tela-inicial {
+    width: 100vh;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    
+  }
+  
+  .container-tela-inicial img {
+    width: 500px;
+    margin-bottom: -200px;
+  }
+  
+  .container-tela-inicial a {
+    margin-top: 15px;
+    color: #054f77;
+    cursor: pointer;
+  
+  }
+  
+  @media (min-width: 1024px) {
+  
+    
+  }
+  
+  @media (min-width: 768px) {
+  
+  
+      
+   }
+    
+  @media (min-width: 390px) {
+    .container-tela-inicial {
+      margin-top: 160px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    
+    }
+  
+  }
+  
+
+
+
+
